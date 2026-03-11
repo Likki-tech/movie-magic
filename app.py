@@ -334,4 +334,4 @@ def delete_movie(movie_id):
     return redirect(url_for('admin_dashboard'))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True)
+    app.run(host='13.235.17.154', port=5000, debug=True)
